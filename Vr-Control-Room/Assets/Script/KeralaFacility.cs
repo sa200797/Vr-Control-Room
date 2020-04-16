@@ -47,9 +47,9 @@ public class KeralaFacility : MonoBehaviour
     private string urlFacility;
 
 
-  
 
-    
+
+    public int city_num;
 
 
     public void Start()
@@ -105,7 +105,7 @@ public class KeralaFacility : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.P))
         {
-            HandleInputData(13);
+            HandleInputData(city_num);
         }
     }
 
@@ -113,85 +113,86 @@ public class KeralaFacility : MonoBehaviour
     {
         if(val== 0)
         {
-            districtName ="Kasargode";
+            districtName ="City";
             KeralaFacilities();
 
         }
         if (val == 1)
         {
-            districtName = "Kannur";
+            districtName = "Kasargode"; //
             KeralaFacilities();
 
         }
         if (val == 2)
         {
-            districtName = "Kozhikode";
+            districtName = "Kannur";//
             KeralaFacilities();
 
         }
         if (val == 3)
         {
-            districtName = "Wayanad";
+            districtName = "Wayanad";//
             KeralaFacilities();
 
         }
+
         if (val == 4)
         {
-            districtName = "Malappuram";
+            districtName = "Malappuram";//
             KeralaFacilities();
 
         }
         if (val == 5)
         {
-            districtName = "Thrissur ";
+            districtName = "Thrissur";//
             KeralaFacilities();
 
         }
         if (val == 6)
         {
-            districtName = "Palakkad";
+            districtName = "Palakkad";//
             KeralaFacilities();
 
         }
         if (val == 7)
         {
-            districtName = "Ernakulam";
+            districtName = "Ernakulam";//
             KeralaFacilities();
 
         }
         if (val == 8)
         {
-            districtName = "Alappuzha";
+            districtName = "Alappuzha";///
             KeralaFacilities();
 
         }
         if (val == 9)
         {
-            districtName = "Kottayam";
+            districtName = "Kottayam";//
             KeralaFacilities();
 
         }
         if (val == 10)
         {
-            districtName = "Idukki";
+            districtName = "Idukki";//
             KeralaFacilities();
 
         }
         if (val == 11)
         {
-            districtName = "Pathanamthitta";
+            districtName = "Pathanamthitta";//
             KeralaFacilities();
 
         }
         if (val == 12)
         {
-            districtName = "Kollam";
+            districtName = "Kollam";//
             KeralaFacilities();
 
         }
         if (val == 13)
         {
-            districtName = "Thiruvananthapuram";
+            districtName = "Thiruvananthapuram";//
             KeralaFacilities();
 
         }

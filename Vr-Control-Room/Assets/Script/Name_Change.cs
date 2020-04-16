@@ -10,7 +10,7 @@ public class Name_Change : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.gameObject.name = name_C;
+        
 
        // Debug.Log("name::" + name_C);
     }
@@ -18,6 +18,10 @@ public class Name_Change : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (this.gameObject.name != name_C)
+        {
+            this.gameObject.name = name_C;
+        }
        // if(this.gameObject.name == " ")
        // {
        //     this.gameObject.name = name_C;

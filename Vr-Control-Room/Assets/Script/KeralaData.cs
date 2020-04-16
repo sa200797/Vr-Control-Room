@@ -176,20 +176,20 @@ public class Wayanad
 [System.Serializable]
 public class Kerala
 {
-    public Alappuzha Alappuzha;
-    public Ernakulam Ernakulam;
-    public Idukki Idukki;
-    public Kannur Kannur;
-    public Kasaragod Kasaragod;
-    public Kollam Kollam;
-    public Kottayam Kottayam;
+    public Alappuzha Alappuzha;//
+    public Ernakulam Ernakulam;//
+    public Idukki Idukki;///
+    public Kannur Kannur;//
+    public Kasaragod Kasaragod;//
+    public Kollam Kollam;//
+    public Kottayam Kottayam;//
     public Kozhikode Kozhikode;
-    public Malappuram Malappuram;
-    public Palakkad Palakkad;
-    public Pathanamthitta Pathanamthitta;
-    public Thiruvananthapuram Thiruvananthapuram;
-    public Thrissur Thrissur;
-    public Wayanad Wayanad;
+    public Malappuram Malappuram;//
+    public Palakkad Palakkad;//
+    public Pathanamthitta Pathanamthitta;//
+    public Thiruvananthapuram Thiruvananthapuram;  //
+    public Thrissur Thrissur;//
+    public Wayanad Wayanad;//
 }
 
 [System.Serializable]
